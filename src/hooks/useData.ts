@@ -33,7 +33,6 @@ const useData = <T>(
           setError(err.message);
         })
         .finally(() => {
-          console.log(data);
           setLoading(false);
         });
 
